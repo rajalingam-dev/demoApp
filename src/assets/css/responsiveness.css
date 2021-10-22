@@ -1,0 +1,47 @@
+/* ==============Mobile Responsiveness============ */
+
+/* Role Select Header */
+@media only screen and (max-width: 981px) {
+  .roleSelect {
+    width: 45vw !important;
+    right: 37% !important;
+  }
+}
+
+/* User Profile */
+@media only screen and (max-width: 600px) {
+
+  .mt-4.useProfileResponsiveMarginTop,
+  .mt-2.useProfileResponsiveMarginTop {
+    margin-top: 0 !important;
+  }
+
+  .userProfileNavTab {
+    border-bottom: none !important;
+  }
+}
+
+
+/* Employee Directory */
+@media only screen and (max-width: 600px) {
+  .empDrtryPagination {
+    right: 37% !important;
+  }
+}
+
+/* Desktop */
+@media only screen and (min-width: 1345px){
+  .userRolesDeleteButton{
+    transform: translateX(-6.5rem) !important;
+    transition: 0.2s ease-in-out;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .userRolesDeleteButtonMinimized {
+    transform: translateX(-4.8rem) !important;
+    transition: 0.2s ease-in-out;
+  }
+}
+
+

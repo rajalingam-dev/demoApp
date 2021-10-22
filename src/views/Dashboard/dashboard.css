@@ -1,0 +1,126 @@
+.dashboardTicketsCard {
+  margin-bottom: 0.8rem;
+  height: 21rem;
+}
+
+.tableHeadDashboard {
+  background-color: #EA4D26;
+  color: white;
+  font-weight: normal !important;
+  border: 1px solid #EA4D26;
+}
+
+.dashboardTicketsBtn {
+  background-color: lightgray;
+  color: black !important;
+  font-size: 12px;
+  border-radius: 0;
+}
+
+.btn-primary {
+  border: none;
+}
+
+.dashboardTicketsBtn:hover {
+  background-color: lightgray;
+  color: black !important;
+  font-size: 12px;
+  border-radius: 0;
+  transform: scale(1.02);
+}
+
+.btn-primary:focus {
+  border-color: lightgray !important;
+  box-shadow: none !important;
+  background-color: lightgray !important;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+  color: black;
+  background-color: lightgray;
+  border-color: lightgray;
+}
+
+.col-md-6.customColDashboard-leaveBalance {
+  padding-left: 0;
+  padding-right: 8px;
+}
+
+.col-md-6.customColDashboard-holidays {
+  padding-right: 0;
+  padding-left: 8px;
+}
+
+.dashboardBtn {
+  background-color: #EA4D26;
+  color: white !important;
+  font-size: 12px;
+  width: 95%;
+  padding: 0.375rem 0rem !important;
+}
+
+.btn-primary {
+  border: none;
+}
+
+.dashboardBtn:hover {
+  background-color: #EA4D26;
+  color: white !important;
+  font-size: 12px;
+  transform: scale(1.02);
+}
+
+.btn-primary:focus {
+  border-color: #EA4D26 !important;
+  box-shadow: 0 0 0 0.2rem rgb(28 206 226 / 55%) !important;
+  background-color: #EA4D26 !important;
+  color: white !important;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+  color: white;
+  background-color: #EA4D26;
+  border-color: #EA4D26;
+}
+
+.dashboardCard-leaveBalance,
+.dashboardCard-holidays {
+  height: 17rem;
+}
+
+.dashboardInsideCard {
+  background-color: rgba(0, 0, 21, 0.05);
+  padding: 7px 7px 0 7px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
+
+.dashboardInsideCard h2 {
+  color: rgba(128, 128, 128, 0.472);
+}
+
+.dashboardInsideCard h5 {
+  color: rgba(128, 128, 128, 0.472);
+  margin-bottom: 0 !important;
+}
+
+.dashboardInsideCard span {
+  font-size: 10.5px;
+}
+
+.dashboardCard-newJoinees {
+  height: 21rem;
+  margin-bottom: 0.9rem;
+}
+
+.dashboardCard-birthday {
+  height: 17rem;
+}
+
+.dashboardCard-birthday p {
+  color: #EA4D26;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
